@@ -1,1 +1,618 @@
-<mxfile host="Electron" modified="2023-01-19T09:45:04.167Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.7.4 Chrome/106.0.5249.199 Electron/21.3.3 Safari/537.36" etag="nHLgKbGhXNZGijMoMsxh" version="20.7.4" type="device"><diagram id="e1IzjhFPy2BL9-7FMw5H" name="Página-1">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</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-12-13T12:13:45.308Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Kza6I56baAfM8LPjfQyo" version="22.1.8" type="github">
+  <diagram id="e1IzjhFPy2BL9-7FMw5H" name="Página-1">
+    <mxGraphModel dx="2886" dy="2269" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-35" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-770" y="440" width="5840" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-720" y="830" width="5730" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-720" y="710" width="5730" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-720" y="590" width="5730" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-8" value="Communication 1&lt;br&gt;Migration Date confirmation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-150" y="605" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-11" value="DUA Deployment" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="605" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-18" value="User Sucess criteria" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="4620" y="846.25" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-20" value="Migration report&lt;br&gt;generation" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="4432" y="722.5" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-32" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;UnilabsTeam&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="-910" y="612.5" width="123" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-33" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Avanade&lt;br&gt;Team&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="-910" y="725" width="123" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-34" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;End User&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="-910" y="845" width="123" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-51" value="User Support" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="4280" y="605" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-55" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;Unilabs SK IT team defines user who will be migrated in each Wave&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-720" y="1000" width="710" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-4" value="Wave closing" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="-700" y="605" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-81" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-710" y="1035" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-82" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Avanade will double check master migration file&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-720" y="1140" width="710" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-83" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-710" y="1175" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-85" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Project management authorize and provide wave licenses prior start provisioning and pre migration tasks.&lt;br&gt;This action is mandatory to the migration pipeline and if this step is undone the migration wave is aborted&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;strokeColor=#b85450;fontSize=21;fillColor=#f8cecc;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-720" y="1565" width="710" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-86" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=16;fillColor=#FFFFFF;strokeColor=#b85450;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="-710" y="1600" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-124" value="Final migration review&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Check the completion status of&amp;nbsp; switcht migration task&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;Check the completion status of&amp;nbsp; mailbox migration task&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;Check the completion status of&amp;nbsp; OneDrive migration task&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;Check &quot;Events&quot; tab from ODM&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;Check &quot;Mailbox&quot; and &quot;OneDrive&quot; : Items migrated and Processed&lt;/li&gt;&lt;/ul&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;strokeColor=#82b366;fontSize=14;fillColor=#d5e8d4;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4300" y="990" width="710" height="151" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-125" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;18&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="4310" y="1025" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-126" value="&lt;div&gt;Generate executive report&lt;/div&gt;&lt;div&gt;From: Carmen&lt;/div&gt;&lt;div&gt;To: Project management&lt;/div&gt;&lt;div&gt;CC: Migration Team, Local IT&lt;/div&gt;&lt;div&gt;Subject: Unishare -&amp;nbsp; Date - Wave number - Migration Summary&lt;/div&gt;&lt;div&gt;Attachment: Including report detail&lt;/div&gt;&lt;div&gt;Body: Some agreed text&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;strokeColor=#82b366;fontSize=14;fillColor=#d5e8d4;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4300" y="1151" width="710" height="151.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-127" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;19&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="4310" y="1207.5" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-128" value="User launches their application switching task throug DUA Agent" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;strokeColor=#82b366;fontSize=14;fillColor=#d5e8d4;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4300" y="1312.5" width="710" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-129" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;20&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="4310" y="1347.5" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-130" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;User confirm their data migration status&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;The basis principle for the migration team will be: &quot;No news, good news&quot;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;strokeColor=#82b366;fontSize=14;fillColor=#d5e8d4;align=left;" parent="1" vertex="1">
+          <mxGeometry x="4300" y="1452.5" width="710" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-131" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;21&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="4310" y="1487.5" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-132" value="&lt;br&gt;&lt;b&gt;Mailbox Switch &lt;/b&gt;migration Task:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Mailbox forwarding direction: source to target&lt;/li&gt;&lt;li&gt;Run : schedule&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;From this moment ,the mailflow of the user is pointed to target mailbox, and the user is considered as migrated&lt;/font&gt;&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;fontSize=14;align=left;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="3420" y="1148" width="710" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-134" value="&lt;b&gt;DUA&lt;/b&gt;: Switch &lt;b&gt;Application &lt;/b&gt;task&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Outlook Application&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Migrate Signature&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;OneDrive application&lt;/li&gt;&lt;ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Add new target OneDrive account preserving existing local folders and disconnect the source account&lt;/li&gt;&lt;/ul&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Teams Profile&lt;/li&gt;&lt;/ul&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;strokeColor=#666666;fontSize=14;fillColor=#f5f5f5;align=left;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="3420" y="1329" width="710" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-135" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;12&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fontSize=16;fillColor=default;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="3425" y="1206" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-136" value="Final Sync&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Mail :&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Migrate Mail, Migrate Calendar, Migrate Contacts, Migrate Task/Notes, Migrate recoverable items&lt;/li&gt;&lt;li&gt;Migration Settings:Migrate Folder Permissions, Migrate Mailbox Delegation&lt;/li&gt;&lt;li&gt;Date range : &lt;b&gt;From T-10 date&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Run Scheduled&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;OneDrive:&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Same as in T-10&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Run Scheduled&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;strokeColor=#666666;fontSize=14;fillColor=#f5f5f5;align=left;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="3420" y="1512" width="710" height="217" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-137" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;13&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fontSize=16;fillColor=default;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="3425" y="1385.5" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-138" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;Check migration status&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;tasks are running&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: center;&quot;&gt;(ODM)&amp;nbsp;&lt;/span&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;strokeColor=#666666;fontSize=14;fillColor=#f5f5f5;align=left;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="3420" y="1740.5" width="710" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-139" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;14&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fontSize=16;fillColor=default;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="3425" y="1602.5" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-140" value="Launch script : DisableMailboxAccess.ps1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;strokeColor=#666666;fontSize=14;fillColor=#f5f5f5;align=left;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="3420" y="1879" width="710" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-141" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;15&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fontSize=16;fillColor=default;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="3425" y="1778" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-154" value="Migration &lt;br&gt;final Review" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="4280" y="722.5" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-156" value="DUA Agent&lt;br&gt;User launches switch task" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="4440" y="846.25" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-104" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;19&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="4487" y="687.5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-77" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;21&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="4670" y="808.75" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-7" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Clock.svg;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="4070" y="1387" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-8" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Clock.svg;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="4070" y="1598" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-107" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;18&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="4330" y="682.5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-105" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;20&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="4502" y="808.75" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-720" y="470" width="5730" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-54" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-660" y="562.5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Project managemnt&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="-910" y="502.5" width="123" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-19" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="-102.5" y="565" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-40" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="-450" y="430" width="290" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-10" value="Rise Jira Ticket" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="ei8IVLT8In2pyp8bNh4R-40" vertex="1">
+          <mxGeometry x="10" y="55" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-16" value="Aprove licenses&lt;br&gt;(Target)&lt;br&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="ei8IVLT8In2pyp8bNh4R-40" vertex="1">
+          <mxGeometry x="140" y="55" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-17" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontSize=20;fillColor=none;" parent="ei8IVLT8In2pyp8bNh4R-40" vertex="1">
+          <mxGeometry y="35" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-58" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;" parent="ei8IVLT8In2pyp8bNh4R-40" vertex="1">
+          <mxGeometry x="122.5" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-59" value="Launch script : SetODReadOnly.ps1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;strokeColor=#666666;fontSize=14;fillColor=#f5f5f5;align=left;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="3420" y="2019" width="710" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-60" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;16&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fontSize=16;fillColor=default;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="3425" y="1917" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-61" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Clock.svg;dashed=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="4070" y="1207.5" width="45" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-87" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Target environment checks and settings&lt;br&gt;Migration team will check and verify that all requirements are correct and properly configured&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="445" y="1000" width="710" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-88" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;5&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="455" y="1035" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-89" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;User Security Profile:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider dzs dzt c d e f g h i j k l m n o p q r s t dzu dzv w x y z ab ac ae af ag ah ai aj ak&quot;&gt;Default config: SU-EAST-SK-SK-SecurityProfile-Basic&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider dzs dzt c d e f g h i j k l m n o p q r s t dzu dzv w x y z ab ac ae af ag ah ai aj ak&quot;&gt;Exceptions defined by Local IT&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="525" y="1280" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-170" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Grant user license&lt;br&gt;Add users to their respective AD Group :&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Kiosk : SU-EAST-SK-SK-Licenses-MS-EOKiosk&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Office E3: SU-EAST-SK-SK-Licenses-MS-O365E3&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="525" y="1420" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-171" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;5.2&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="535" y="1323" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-174" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Provisionate OneDrive&lt;br&gt;Launch provisioning script&lt;br&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="525" y="1560" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-175" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;5.3&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="535" y="1463" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-178" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Copy Regional Settings&lt;br&gt;Launch copy regional settings script&lt;br&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="525" y="1700" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-179" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Check O365 provisioning status&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Check if mailbox was succesfully provisionated&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Check if OneDrive is succesfully provisionated&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Check if user is hidden&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Check if user have log in once&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="525" y="1840" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-180" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;5.4&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="535" y="1603" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-181" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;5.5&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="535" y="1743" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-116" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Quest On Demand migration premigration tasks&lt;br&gt;Migration team will create, group, and prepare migration tasks&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="1001.5" width="710" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-117" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;6&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="1042.5" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-118" value="Create Discovery,mapping and collection CSV and launch associated tasks" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="1141.5" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-119" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;6.1&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="1176.5" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-122" value="&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;Start Initial sync tasks&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;Mailbox: Migrate Mail + Migrate Recoverable items&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;OneDrive: Latest Version Only + Matching target account + Update permissions for migrated content + collect data 3 days.&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Task names:&lt;/li&gt;&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;yyyyMMdd - T10 - One Drive XXXX&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;yyyyMMdd - T10 - Mail migration&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="1561.5" width="630" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-3" value="Data migration review&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;ul style=&quot;font-size: 14px;&quot;&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Check if task have finished succesfully&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Check possible warnings in sync tasks&lt;/li&gt;&lt;li style=&quot;font-size: 14px;&quot;&gt;Check possible fails in sync tasks&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;The success of these steps represent a validation checkpoint passed&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="1781.5" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-47" value="First assesment of the wave and collect information referral to data to be transferred" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="1281.5" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-49" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Search.svg;dashed=1;sketch=0;strokeWidth=3;fontColor=#ffffff;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="2080" y="1825.4999999999998" width="36" height="36.54" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-48" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;6.4&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="1644.5" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-121" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;6.2&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="1316.5" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-148" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;GO / NO GO Confirmation&lt;br style=&quot;&quot;&gt;&lt;/font&gt;&lt;ul style=&quot;font-size: 16px;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;To: Carmen&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;CC: Mail Migration Team, Local IT, Benjamin Legay, Kiran&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Subject: Unishare -&amp;nbsp; Date - Wave number - Authorization Go&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Body: Wave number have been authorized / not authorized. and you can proceed / not proceed&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#b85450;fontSize=14;fillColor=#f8cecc;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2315" y="1430" width="710" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-149" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;10&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=16;fillColor=#FFFFFF;strokeColor=#b85450;strokeWidth=3;" parent="1" vertex="1">
+          <mxGeometry x="2320" y="1500" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-5" value="Communications 2 : Last minute preparations&lt;br&gt;&lt;ul&gt;&lt;li&gt;Remember the user that he should close Outlook, Microsoft Teams, and OneDrive app prior launch the DUA agent tasks on day &quot;D&quot;&lt;/li&gt;&lt;/ul&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2315" y="1000" width="710" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-6" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;7&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2320" y="1035" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-55" value="Dua deployment review: Guarantee that DUA agent is correctly installed on users on wave" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2315" y="1145" width="710" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-56" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;8&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2320" y="1180" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-57" value="Communications 3 : It&#39;s happening tomorrow&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Friendly reminder to shut down the PC/Thin client at the end of this day&lt;/li&gt;&lt;/ul&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="2315" y="1285" width="710" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-58" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;9&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="2320" y="1320" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-13" value="Switch Mailbox Task&lt;br&gt;Source to target" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="3230" y="722.5" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-14" value="Final Sync&lt;br&gt;Mailbox + OneDrive" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="3540" y="722.5" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-15" value="DUA - ODM&lt;br&gt;Switch Application Task" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="3380" y="722.5" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-16" value="Check migration status&lt;br&gt;tasks are running&lt;br&gt;(ODM)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="3690" y="722.5" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-59" value="13" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="3435" y="680" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-62" value="14" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="3595" y="680" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-63" value="12" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="3285" y="680" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-74" value="15" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="3745" y="680" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-102" value="OneDrive Read Only&lt;br&gt;(Source)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="4000" y="722.5" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-103" value="Block Mailbox access&lt;br&gt;(Source)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="3840" y="722.5" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-106" value="16" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="3900" y="680" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-155" value="17" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="4050" y="680" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="efSbUeM5ZtexB6FepWHn-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=12 12;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="970" as="sourcePoint" />
+            <mxPoint x="130" y="378.99999999999955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efSbUeM5ZtexB6FepWHn-5" value="&lt;b&gt;T - 10&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="324.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="efSbUeM5ZtexB6FepWHn-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=12 12;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3050" y="970" as="sourcePoint" />
+            <mxPoint x="3050" y="378.99999999999955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efSbUeM5ZtexB6FepWHn-7" value="&lt;b&gt;T - 1&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="2985" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="efSbUeM5ZtexB6FepWHn-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=12 12;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-720" y="965.5" as="sourcePoint" />
+            <mxPoint x="-720" y="374.49999999999955" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efSbUeM5ZtexB6FepWHn-9" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;T - 15&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="-780" y="324.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="efSbUeM5ZtexB6FepWHn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=18;endArrow=none;endFill=0;strokeWidth=4;strokeColor=#FF3333;" parent="1" source="efSbUeM5ZtexB6FepWHn-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4240" y="2021.7391304347825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="efSbUeM5ZtexB6FepWHn-10" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;T - 0&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="4180" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="efSbUeM5ZtexB6FepWHn-12" value="&lt;b&gt;Migration&lt;br&gt;Tasks&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="3580" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="efSbUeM5ZtexB6FepWHn-13" value="&lt;b&gt;Pre Migration&lt;br&gt;Tasks&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="324.5" width="375" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="efSbUeM5ZtexB6FepWHn-21" value="Intial forwarding task : Target to Source" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=14;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="1421.5" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="efSbUeM5ZtexB6FepWHn-22" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;6.5&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="1824.5" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-51" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;6.3&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="1464.5" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="efSbUeM5ZtexB6FepWHn-23" value="&lt;b&gt;Post Migration tasks&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="4570" y="340" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-1" value="Enable User&lt;br&gt;(Target AD)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="3080" y="722.5" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-2" value="11" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="3130.5" y="677.5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-10" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="1400" y="656.25" width="1020" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-1" value="Discovery Task" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-10" vertex="1">
+          <mxGeometry x="7.5" y="67.5" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-2" value="Mapping Task" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-10" vertex="1">
+          <mxGeometry x="137.5" y="67.5" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-3" value="Initial Sync (T-10)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-10" vertex="1">
+          <mxGeometry x="702.5" y="67.5" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-9" value="Data migration review" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-10" vertex="1">
+          <mxGeometry x="832.5" y="67.5" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-45" value="Create collection" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-10" vertex="1">
+          <mxGeometry x="267.5" y="67.5" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-100" value="Collect Statistcs" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-10" vertex="1">
+          <mxGeometry x="397.5" y="67.5" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-161" value="6.4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=16;container=0;fontStyle=1" parent="K6txNGnh9pSJ9KKuYElZ-10" vertex="1">
+          <mxGeometry x="742.5" y="130" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-162" value="6.5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=16;container=0;fontStyle=1" parent="K6txNGnh9pSJ9KKuYElZ-10" vertex="1">
+          <mxGeometry x="887.5" y="130" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-151" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;sketch=0;strokeColor=#000000;fontSize=14;fillColor=none;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-10" vertex="1">
+          <mxGeometry y="30" width="1020" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-150" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;6&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=16;container=0;fontStyle=1" parent="K6txNGnh9pSJ9KKuYElZ-10" vertex="1">
+          <mxGeometry x="480" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-52" value="6.1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=16;container=0;fontStyle=1" parent="K6txNGnh9pSJ9KKuYElZ-10" vertex="1">
+          <mxGeometry x="192.5" y="130" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-53" value="6.2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=16;container=0;fontStyle=1" parent="K6txNGnh9pSJ9KKuYElZ-10" vertex="1">
+          <mxGeometry x="447.5" y="130" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="efSbUeM5ZtexB6FepWHn-16" value="Initial Forwarding&lt;br&gt;(Target to source)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-10" vertex="1">
+          <mxGeometry x="552.5" y="67.5" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="efSbUeM5ZtexB6FepWHn-15" value="6.3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=16;container=0;fontStyle=1" parent="K6txNGnh9pSJ9KKuYElZ-10" vertex="1">
+          <mxGeometry x="602.5" y="130" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div&gt;Enable User&amp;nbsp;&lt;/div&gt;&lt;div&gt;Launch script: EnableUsers.ps1&lt;/div&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="525" y="1140" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-90" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;5.1&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="535" y="1183" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-17" value="Change password&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#6c8ebf;fontSize=14;fillColor=#dae8fc;align=left;" parent="1" vertex="1">
+          <mxGeometry x="525" y="1981" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;5.6&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="535" y="1883" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;5.7&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="535" y="2024" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-20" value="&lt;span style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;17&lt;/b&gt;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fontSize=16;fillColor=default;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="3425" y="2057.5" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-21" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Enable User:&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Launch script: EnableUsers.ps1&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;strokeColor=#666666;fontSize=14;fillColor=#f5f5f5;align=left;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="3420" y="1000" width="710" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-133" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;11&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;fontSize=16;fillColor=default;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="3425" y="1037.5" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-22" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/identity/Users.svg;" parent="1" vertex="1">
+          <mxGeometry x="4074.2200000000003" y="1790" width="36.57" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-24" value="8:00 PM CET" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;fontSize=21;direction=east;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="3120" y="1183" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-25" value="New: Avanade team will supervise Status" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;fontSize=21;direction=east;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="3110" y="1749" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-27" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=12 12;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2426" y="970" as="sourcePoint" />
+            <mxPoint x="2426" y="378.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-28" value="&lt;b&gt;T - 5&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;flipH=1;" parent="1" vertex="1">
+          <mxGeometry x="2361" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-31" value="To be confirmed by Kiran" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;fontSize=21;direction=east;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="3100" y="1960" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-32" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="2430" y="567.5" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-29" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Communication 3&lt;br&gt;It&#39;s happening tomorrow&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="K6txNGnh9pSJ9KKuYElZ-32" vertex="1">
+          <mxGeometry x="320" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-30" value="DUA deployment review" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="K6txNGnh9pSJ9KKuYElZ-32" vertex="1">
+          <mxGeometry x="150" y="40" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-31" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Communication 2&lt;br&gt;Iast minute preparations&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#000000;shadow=1;" parent="K6txNGnh9pSJ9KKuYElZ-32" vertex="1">
+          <mxGeometry y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-60" value="9" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;fontStyle=1" parent="K6txNGnh9pSJ9KKuYElZ-32" vertex="1">
+          <mxGeometry x="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-61" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;fontStyle=1" parent="K6txNGnh9pSJ9KKuYElZ-32" vertex="1">
+          <mxGeometry x="210" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-66" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;fontStyle=1" parent="K6txNGnh9pSJ9KKuYElZ-32" vertex="1">
+          <mxGeometry x="45" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-33" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="2870" y="437.5" width="170" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-25" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;Migration communication&lt;br&gt;&lt;/span&gt;GO / NO GO" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="K6txNGnh9pSJ9KKuYElZ-33" vertex="1">
+          <mxGeometry y="45" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-64" value="&lt;b&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;10&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;" parent="K6txNGnh9pSJ9KKuYElZ-33" vertex="1">
+          <mxGeometry x="55" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-42" value="" style="group" parent="1" connectable="0" vertex="1">
+          <mxGeometry x="140" y="650" width="1250" height="196.25" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-97" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;sketch=0;strokeColor=#000000;fontSize=14;fillColor=none;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry y="35" width="1250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-67" value="&lt;b&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;5&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="640" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-80" value="Add users to groups&lt;br&gt;(Security Profiles)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="159" y="71.25" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Grant &lt;br&gt;user licenses&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="310" y="70" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-166" value="5.2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;fontStyle=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="209" y="136.25" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-7" value="Provisionate &lt;br&gt;OneDrive" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="440" y="70" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-167" value="5.3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;fontStyle=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="355" y="135" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-101" value="Copy Regional Settings" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="570" y="70" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-168" value="5.4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;fontStyle=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="480" y="135" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-6" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Check &lt;br&gt;&amp;nbsp;O365 provisioning status&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="740" y="70" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-169" value="5.5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;fontStyle=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="630" y="135" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-11" value="Enable User&lt;br&gt;(Target AD)" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;fillColor=#dae8fc;strokeColor=#000000;shadow=1;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="10" y="70" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-12" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;5.1&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="60" y="135" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-14" value="5.6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;fontStyle=1;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="795" y="135" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-36" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Disable User&lt;br&gt;(Target AD)&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;fillColor=#dae8fc;strokeColor=#000000;shadow=1;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="1060" y="70" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-37" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Change password&lt;br&gt;&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;fillColor=#dae8fc;strokeColor=#000000;shadow=1;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="900" y="71.25" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-165" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;5.7&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="955" y="135" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K6txNGnh9pSJ9KKuYElZ-38" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;5.8&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;container=0;" parent="K6txNGnh9pSJ9KKuYElZ-42" vertex="1">
+          <mxGeometry x="1115" y="136.25" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QPYOipJvOLcV7Gef4yfE-1" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Disable users:&lt;br&gt;Launch Script: DisableUsers.ps1&lt;br&gt;&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#6c8ebf;fontSize=21;fillColor=#dae8fc;align=left;" parent="1" vertex="1">
+          <mxGeometry x="525" y="2130" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="QPYOipJvOLcV7Gef4yfE-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;5.8&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="535" y="2173" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="QPYOipJvOLcV7Gef4yfE-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=none;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+          <mxGeometry x="3365" y="1875" width="805" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="Km8v4EE43-8SvYw9rxP4-2" value="8:00 PM CET" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;fontSize=21;direction=east;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="3110" y="1338" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Km8v4EE43-8SvYw9rxP4-3" value="10:00 PM CET" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;fontSize=21;direction=east;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="3120" y="1570" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Km8v4EE43-8SvYw9rxP4-4" value="Welcome Message" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="4790" y="605" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Km8v4EE43-8SvYw9rxP4-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;User account status:&lt;br&gt;Enumerate users who have never logged in and send this list to Local IT&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;This action is mandatory and creates dependencies with the steps : 5.7 and 5.8 of this pipeline&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#6c8ebf;fontSize=21;fillColor=#dae8fc;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="1421.5" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Km8v4EE43-8SvYw9rxP4-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;2.2&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="-630" y="1464.5" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Km8v4EE43-8SvYw9rxP4-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div&gt;Action Migrate&amp;nbsp;&lt;/div&gt;&lt;div&gt;Verify &quot;Action&quot; column : &quot;Migrate&quot; &quot;Not Migrate&quot;&lt;/div&gt;&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;dashed=1;sketch=0;strokeColor=#666666;fontSize=21;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="1281.5" width="630" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Km8v4EE43-8SvYw9rxP4-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;2.1&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="-630" y="1324.5" width="44" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Km8v4EE43-8SvYw9rxP4-22" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-550" y="657.5" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Km8v4EE43-8SvYw9rxP4-6" value="" style="whiteSpace=wrap;html=1;fillColor=none;dashed=1;container=0;" parent="Km8v4EE43-8SvYw9rxP4-22" vertex="1">
+          <mxGeometry y="40" width="300" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-79" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Migrate / No Migrate&lt;/font&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;" parent="Km8v4EE43-8SvYw9rxP4-22" vertex="1">
+          <mxGeometry x="10" y="66.25" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Km8v4EE43-8SvYw9rxP4-5" value="Enumerate&lt;br&gt;users never&lt;br&gt;Logged In" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;container=0;fillColor=#dae8fc;strokeColor=#000000;shadow=1;" parent="Km8v4EE43-8SvYw9rxP4-22" vertex="1">
+          <mxGeometry x="140" y="66.25" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEI3JrH_esr1LvZ-FMrd-57" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;container=0;" parent="Km8v4EE43-8SvYw9rxP4-22" vertex="1">
+          <mxGeometry x="120" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Km8v4EE43-8SvYw9rxP4-8" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;2.1&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;container=0;" parent="Km8v4EE43-8SvYw9rxP4-22" vertex="1">
+          <mxGeometry x="52.5" y="129.5" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Km8v4EE43-8SvYw9rxP4-9" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;2.2&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;sketch=0;strokeColor=#666666;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;container=0;" parent="Km8v4EE43-8SvYw9rxP4-22" vertex="1">
+          <mxGeometry x="187.5" y="129.5" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Km8v4EE43-8SvYw9rxP4-23" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-730" y="-40" width="560" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-70" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;strokeWidth=1;fontSize=19;fontColor=#000000;fillColor=none;" parent="Km8v4EE43-8SvYw9rxP4-23" vertex="1">
+          <mxGeometry width="540" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-64" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="Km8v4EE43-8SvYw9rxP4-23" vertex="1">
+          <mxGeometry x="10" y="55" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-65" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="Km8v4EE43-8SvYw9rxP4-23" vertex="1">
+          <mxGeometry x="10" y="204" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-66" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Common step&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;No associated dependencies&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" parent="Km8v4EE43-8SvYw9rxP4-23" vertex="1">
+          <mxGeometry x="100" y="50" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-68" value="&lt;b&gt;Critical Step&lt;/b&gt;&lt;div style=&quot;&quot;&gt;Represents a mandatory action that could discard the migration flow&lt;/div&gt;&lt;div style=&quot;&quot;&gt;if it is not overcome.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" parent="Km8v4EE43-8SvYw9rxP4-23" vertex="1">
+          <mxGeometry x="110" y="200" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ei8IVLT8In2pyp8bNh4R-69" value="&lt;b&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Legend&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" parent="Km8v4EE43-8SvYw9rxP4-23" vertex="1">
+          <mxGeometry x="10" y="9" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Km8v4EE43-8SvYw9rxP4-20" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;rounded=0;" parent="Km8v4EE43-8SvYw9rxP4-23" vertex="1">
+          <mxGeometry x="10" y="134" width="80" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Km8v4EE43-8SvYw9rxP4-21" value="&lt;b&gt;Associated dependencies&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;Task with dependencies on other tasks.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" parent="Km8v4EE43-8SvYw9rxP4-23" vertex="1">
+          <mxGeometry x="110" y="135" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uBrMhSYqXcrnoAl6CyBM-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="104" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
