@@ -1,0 +1,41 @@
+FirstName                 : Mirta
+SecondName                : Cano
+DisplayName               : Mirta Cano
+Type                      : User
+UserType                  : Member
+RecipientTypeDetails      : UserMailbox
+GroupType                 :
+SourceGuid                : 48cc8860-efc8-4a79-8723-0cc0a1decf78
+SourceEmail               : mcano_src@365enespanol.com
+SourceUserPrincipalName   : mcano_src@365enespanol.com
+Progress                  : 100
+Status                    : Completed
+TargetGuid                : 1c5b96c5-893c-4d0c-ac6c-bd9dc6f1d3be
+TargetEmail               : mcano_trg@M365x59909532.onmicrosoft.com
+TargetUserPrincipalName   : mcano_trg@M365x59909532.onmicrosoft.com
+MailMigrationStatus       : New
+MailMigrationProgress     :
+MailMigrationEstimated    :
+MailMigrationProcessed    :
+MailMigrationErrors       :
+SwitchStatus              : New
+SwitchDirection           :
+OneDriveStatus            : New
+OneDriveProgress          :
+OneDriveSourceFileCount   :
+OneDriveSourceItemCount   :
+OneDriveTargetItemCount   :
+OneDriveMigrationProgress :
+OneDriveProvisioned       :
+OneDriveAssessmentStatus  :
+OneDriveSourceTotalSize   :
+JobTitle                  :
+Department                :
+Country                   :
+City                      :
+MailboxPropsDiscovered    : True
+MailboxLogonTime          : 12/01/2023 20:49:17
+MailboxSize               : 2885956
+MailboxItemsCount         : 55
+ArchiveGuid               : 00000000-0000-0000-0000-000000000000
+_Id                       : ts0UqoUBQ7RaTwk8tlFT48cc8860-efc8-4a79-8723-0cc0a1decf78

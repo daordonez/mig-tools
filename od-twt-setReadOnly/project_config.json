@@ -1,0 +1,11 @@
+{
+  "params" : {
+      "sharePoint":{
+        "logsFileName": "SetOneDriveReadOnly.log",
+        "adminUrl": "https://domainsource-admin.sharepoint.com",
+        "baseODUrl": "https://domainsource-my.sharepoint.com/personal"
+      },
+    "baseRepoPathPrefix": "C:\\Users",
+    "baseReportPathSufix": "OneDrive - Avanade\\Unishare Slovakia\\Migration\\Waves"
+  }
+}

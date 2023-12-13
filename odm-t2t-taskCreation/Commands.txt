@@ -1,0 +1,71 @@
+############################################################################
+                        COMUNES
+############################################################################
+
+Buscar un usuario por nombre de email origen:
+$searchString = @{'sourceEmail' = 'mcano_src@365enespanol.com'}
+$thisUser = Get-OdmObject -WildcardFilter $searchString
+
+Obtener una coleción creada
+$collectionName = @{'name' = 'Collection1_contoso'}
+$thisCollection = Get-OdmCollection -WildcardFilter $collectionName
+
+Obtener todos los usuarios de una colleción, y meterlos en un array para añadirlos a una tarea ya creada
+ $allUsers=@()
+ $thisUsersCol = $thisCollection | Get-OdmObject 
+ $thisUsersCol | Foreach {
+  $filter= @{'sourceEmail' = $_.SourceEmail}
+  $thisUserToTask = Get-OdmObject -WildcardFilter $filter
+  $allUsers+=$thisUserToTask
+ }
+  Add-OdmObject -To $thisTask -Objects $allUsers
+
+Obtener una tarea
+$thisTaskName = @{'name' = '20230114_T10_Mail_Migration'}
+$thisTask = Get-OdmTask -WildcardFilter $thisTaskName
+
+#Obtener todas las tareas que tiene un usuario
+$searchString = @{'sourceEmail' = 'mcano_src@365enespanol.com'}
+$thisUser = Get-OdmObject -WildcardFilter $searchString
+($thisUser | Get-OdmEvent | group TaskName).Name
+
+############################################################################
+                        MAIL MIGATION
+############################################################################
+
+Crear una tarea de migración de correo:
+New-OdmMailMigrationTask -Name "20230113_T10_Mail_Migration" `
+ -MigrateMail -MigrateRecoverableItems -MailForwarding 'Ignore' `
+ -O365LicenseAssignmentType Keep -O365LicenseToAssign "SkipO365LicenseAssignment" 
+
+Obtener la tarea
+$thisTaskName = @{'name' = '20230114_T10_Mail_Migration'}
+$thisTask = Get-OdmTask -WildcardFilter $thisTaskName
+
+
+ Añadir objetos a la tarea
+ Add-OdmObject -To $thisTask -Objects $thisUser
+
+ Obtener usuarios de una colección
+ $collectionName = @{'name' = 'Collection1_contoso'}
+ $thisCollection = Get-OdmCollection -WildcardFilter $collectionName
+ $thisCollection | Get-OdmObject
+
+  Crear una tarea programada indicando un rango de fechas (Desde X hasta ahora)
+  $thisFrom = (Get-Date -Hour 00 -Minute 01 -Second 00).AddDays(-10)
+  New-OdmMailMigrationTask -Name "20230113_T10_Mail_Migration" `
+ -MigrateMail -MigrateRecoverableItems -MailForwarding 'Ignore' `
+ -O365LicenseAssignmentType Keep -O365LicenseToAssign "none" -MigrateMailFrom $thisFrom
+
+
+############################################################################
+                        ONEDRIVE MIGATION
+############################################################################
+
+Crear una tarea de migracion de OneDrive 
+ $thisODMigrationTask = New-OdmOneDriveMigrationTask -Name "20230114_T10_OneDrive_Migration" -MigrationAction Skip -FileVersions LatestAndPrevious `
+  -PermissionBehaviour MigratedContentOnly -Author TargetAccount -FileVersionMaxSize 32 -O365LicenseAssignmentType Keep -O365LicenseToAssign "none"
+
+ Set-OdmOneDriveMigrationTask -Task $thisODMigrationTask -O365LicenseToAssign ""
+
+ Get-OdmTask -Task $thisODMigrationTask 

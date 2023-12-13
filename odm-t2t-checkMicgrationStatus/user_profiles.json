@@ -1,0 +1,56 @@
+{
+  "version": 1.0,
+  "script": "CheckUserPreMigrationStatus",
+  "project": "Unishare SK",
+  "params": {
+    "commonAttributes": {
+      "country": "Slovakia",
+      "licenseStrategy": ["OneGo", "PayAsYouGo"],
+      "licenseGroupPrefix": "SU-EAST-SK-SK-Licenses",
+      "securityGroupPrefix": "SU-EAST-SK-SK-SecurityProfile",
+      "requiresdisableMailboxAccess": "True",
+      "requiresOneDriveReadOnly": "True"
+    },
+    "profiles": [
+      {
+        "profileName": "infoWorker",
+        "securityProfileGroup": "SU-EAST-SK-SK-SecurityProfile-Standard",
+        "licenseGroup": "SU-EAST-SK-SK-Licenses-MS-O365E3",
+        "requiresDUADeployment": "True",
+        "preMigrationParams": {
+          "AccountEnabled": "False",
+          "hiddenFromGAL": "False",
+          "mailFlowDirection": "TargetToSource"
+        },
+        "migrationParams": {
+          "AccountEnabled": "True",
+          "hiddenFromGAL": "False",
+          "mailFlowDirection": "SourceToTarget"
+        }
+      },
+      {
+        "profileName": "frontlineWorker",
+        "securityProfileGroup": "SU-EAST-SK-SK-SecurityProfile-Basic",
+        "licenseGroup": "SU-EAST-SK-SK-Licenses-MS-O365F3",
+        "requiresDUADeployment": "False",
+        "preMigrationParams" :{
+          "AccountEnabled": "False",
+            "hiddenFromGAL": "False",
+            "mailFlowDirection": ""
+        },
+        "migrationParams":{
+          "AccountEnabled": "False",
+            "hiddenFromGAL": "False",
+            "mailFlowDirection": ""
+        }
+      },
+      {
+        "profileName": "vipUser",
+        "securityProfileGroup": "SU-EAST-SK-SK-SecurityProfile-Standard",
+        "requiresDUADeployment": "True",
+        "preMigrationParams":{},
+        "migrationParams":{}
+      }
+    ]
+  }
+}

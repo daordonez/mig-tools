@@ -1,0 +1,4 @@
+**/export/*.csv
+**/exports/*.csv
+**/backups/*.csv
+**/common/*.csv

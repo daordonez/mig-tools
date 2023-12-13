@@ -1,0 +1,8 @@
+{
+  "params" : {
+      "sourceTenantDomain" : "domain-source.local",
+      "targetTenantDomain" : "domain-target.local",
+      "sourceConnectionPrefix": "SRC",
+      "targetConnectionPrefix" : "TRG"
+  }
+}

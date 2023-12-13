@@ -1,0 +1,9 @@
+{
+  "params" : {
+      "sharePoint":{
+        "logsFileName": "OneDriveStatus.log",
+        "adminUrl": "https://domainsource-admin.sharepoint.com",
+        "baseODUrl": "https://domainsource-my.sharepoint.com/personal"
+      }
+  }
+}

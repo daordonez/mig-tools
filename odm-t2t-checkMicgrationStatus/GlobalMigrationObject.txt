@@ -1,0 +1,42 @@
+DisplayName                   : => fill in CheckAADUSerStatus
+SourceUserPrincipalName       : unilabs@unilabs.sk => fill in CheckAADUSerStatus
+TargetUserPrincipalname       : 0_NOMATCH => fill in CheckAADUSerStatus
+AccountEnabled                : => fill in CheckAADUSerStatus
+UserProfile                   : infoWorker
+Country                       : => fill in CheckAADUSerStatus
+LicenseDetail                 : SHAREDMBX_NOTNEEDED => fill in CheckAADUSerStatus
+hasLoggedIn                   : False
+LastLogonTimeStamp            :
+LastRefreshMigrationInventory : 08/03/2023 9:13:58 => fill in CheckAADUSerStatus
+RequiresDUADeployment         : False => Fill in CheckMigrationDefinition
+SecurityProfileGroup          :
+LicenseGroup                  :
+OneDriveStatus                : => Fill in CheckOneDriveStatus
+RegionalConfiguration         : False
+isO365Provioned               : False => fill in CheckMsolUserStatus
+isPasswordSet                 : False
+PasswordSetTimeStamp          :
+UserMailboxType               : SharedMailbox => fill in CheckAADUSerStatus
+Wave                          : Wave_6 => fill in CheckAADUSerStatus
+WaveClosingTimeStamp          : 03/03/2023 11:17:17 => fill in CheckAADUSerStatus
+ODMCollectionName             : => fill in ChecODMTaskStatus
+ODMMailInitialSyncTask        : => fill in ChecODMTaskStatus
+ODMODInitialSyncTask          : => fill in ChecODMTaskStatus
+ODMMailboxSwitchTask          : => fill in ChecODMTaskStatus
+ODMAppSwitchTask              : => fill in ChecODMTaskStatus
+ODMMailFinalSyncTask          : => fill in ChecODMTaskStatus
+ODMODFinalSyncTask            : => fill in ChecODMTaskStatus
+PreMigrationTasksTimeStamp    : => fill in ChecODMTaskStatus
+PreMigrationTaskStatus        : => fill in CheckUsermigrationDefition
+DataMigrationReview           :
+CommunicationPhase            : 0
+isMailboxAccessDisabled       :=> fill in CheckAADUSerStatus
+MailboxAccessDisableTimeStamp :=> fill in CheckAADUSerStatus
+MailboxSwitchDirection        :
+isOneDriveReadOnlyEnabled     :=> fill in CheckAADUSerStatus
+OneDrivereadOnlyTimeStamp     :=> fill in CheckAADUSerStatus
+MigrationTasksTimeStamp       :
+MigrationTaskStatus           :
+MailMigrationRate             : 0 => fill in ChecODMTaskStatus
+OneDriveMigrationRate         : 0 => fill in ChecODMTaskStatus
+GlobalMigrationStatus         : NotMigrated

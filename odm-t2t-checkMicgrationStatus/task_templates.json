@@ -1,0 +1,63 @@
+{
+  "version": 1.0,
+  "author": "Diego Ordonez",
+  "projectName": "UnilShare-SK",
+  "templates": [
+    {
+      "stage": "preMigration",
+        "type": "mailForwarding",
+        "name": "Mail_Forwarding",
+        "prefix": "T10",
+        "taskParams":{
+          "switchDirection": "TargetToSource"
+        }
+    },
+    {
+      "stage": "preMigration",
+      "type": "mailMigration",
+      "name": "Mail_Migration",
+      "prefix": "T10",
+      "taskParams": {
+        "O365LicenseAssignmentType":"Keep",
+        "O365LicenseToAssign": "none"
+      }
+    },
+    {
+      "stage": "preMigration",
+      "type": "oneDriveMigration",
+      "name": "OneDrive_Migration",
+      "prefix": "T10",
+      "taskParams": {}
+    },
+    {
+      "stage": "migration",
+      "type": "mailForwarding",
+      "name": "Mail_Forwarding",
+      "prefix": "T1",
+      "taskParams": {
+        "switchDirection": "SourceToTarget"
+      }
+    },
+    {
+      "stage": "migration",
+      "type": "mailMigration",
+      "name": "Mail_Migration",
+      "prefix": "T1",
+      "taskParams": {}
+    },
+    {
+      "stage": "migration",
+      "type": "oneDriveMigration",
+      "name": "OneDrive_Migration",
+      "prefix": "T1",
+      "taskParams": {}
+    },
+    {
+      "stage": "migration",
+      "type": "DUADrop",
+      "name": "Switch_Applications",
+      "prefix": "T1",
+      "taskParams": {}
+    }
+  ]
+}

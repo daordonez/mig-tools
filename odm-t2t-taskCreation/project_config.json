@@ -1,0 +1,62 @@
+{
+  "version": 1.0,
+  "apiPath": "C:\\Program Files\\WindowsPowerShell\\Modules\\ODMApi\\OdmAPI.psd1",
+  "author": "Diego Ordonez",
+  "projectName": "UnilShare-SK",
+  "params": {
+    "tenantConfiguration": {
+      "region": "EU",
+      "organizationId": "7f3e5912-1540-d17a-ed52-0b4b9352beb0",
+      "projectId": "ts0UqoUBQ7RaTwk8tlFT"
+    },
+    "projectConf": {
+      "tasks": {
+        "mailTasks": {
+          "contentMigration": {
+            "commonNameSufix": "Mail_Migration",
+            "forwardingConfig": "Ignore",
+            "licenses": {
+              "O365LicenseAssignmentType": "Keep",
+              "O365LicenseToAssign": "none"
+            },
+            "preMigration": {
+              "prefixName": "T10"
+            },
+            "migration": {
+              "prefixName":"Final"
+            },
+            "postMigration": {}
+          },
+          "mailForwarding": {
+            "commonNameSufix": "Mail_Forwarding",
+            "initialSwitchDirectionEnable": "True",
+            "preMigration": {
+              "prefixName": "Initial",
+              "switchDirection": "TargetToSource"
+            },
+            "migration": {
+              "prefixName": "Final",
+              "switchDirection": "SourceToTarget"
+            }
+          }
+        },
+        "oneDriveTasks": {
+          "contentMigration":{
+            "commonNameSufix": "OneDrive_Migration",
+            "licenses": {
+              "O365LicenseAssignmentType": "Keep",
+              "O365LicenseToAssign": "none"
+            },
+            "preMigration":{
+              "prefixName":"T10"
+            },
+            "migration":{
+              "prefixName":"Final"
+            },
+            "postMigration" :{}
+          }
+        }
+      }
+    }
+  }
+}

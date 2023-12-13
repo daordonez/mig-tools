@@ -1,0 +1,34 @@
+{
+  "version": 1.0,
+  "apiPath": "C:\\Program Files\\WindowsPowerShell\\Modules\\ODMApi\\OdmAPI.psd1",
+  "author": "Diego Ordonez",
+  "projectName": "UnilShare-SK",
+  "params": {
+    "oDMTenantConfiguration": {
+      "region": "EU",
+      "organizationId": "8c5e660f-a08e-85fc-2dd6-a3e0532566be",
+      "projectId": "1HNYAIcBQjFR32JLGFdX"
+    },
+    "o365TenantConfiguration":{
+      "AADTenantId": "30a5585b-3b79-491a-bc1e-5cfe51faf766"
+    },
+    "migrationFilesRepository":{
+      "rootPathPrefix": "C:\\Users",
+      "rootPathSufix":"OneDrive - Avanade\\Unishare Slovakia\\Migration\\Waves"
+    },
+    "exchangeOnline" :{
+      "logsFileName": "RegionalConfig.log",
+      "sourceTenantDomain" : "unilabs.sk",
+      "targetTenantDomain" : "unilabs.com",
+      "targetOnMSDomain": "unilabsgroup.onmicrosoft.com",
+      "sourceConnectionPrefix": "SRC",
+      "targetConnectionPrefix" : "TRG"
+    },
+    "sharePoint": {
+      "logsFileName": "OneDriveStatus.log",
+      "logsProvisioning": "OneDriveProvisioning.log",
+      "adminUrl": "https://unilabsgroup-admin.sharepoint.com",
+      "baseODUrl": "https://unilabsgroup-my.sharepoint.com/personal"
+    }
+  }
+}

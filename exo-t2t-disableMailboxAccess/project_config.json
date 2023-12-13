@@ -1,0 +1,14 @@
+{
+  "version": 1.0,
+  "author": "Diego Ordonez",
+  "projectName": "Project-Name",
+  "params": {
+    "sourceTenantDomain": "domain-source.local",
+    "targetTenantDomain": "domain-target.local",
+    "mailboxAccess": {
+      "logsFileName": "DisableMailboxAccess.log"
+    },
+    "baseRepoPathPrefix": "C:\\Users",
+    "baseReportPathSufix": "OneDrive - Avanade\\Unishare Slovakia\\Migration\\Waves"
+  }
+}

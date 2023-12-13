@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UserDescriptionSample</title>
+</head>
+<body>
+  <style type="text/css">
+    .tg  {border-collapse:collapse;border-color:#aaa;border-spacing:0;}
+    .tg td{background-color:#fff;border-color:#aaa;border-style:solid;border-width:1px;color:#333;
+      font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg th{background-color:#f38630;border-color:#aaa;border-style:solid;border-width:1px;color:#fff;
+      font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+    .tg .tg-0lax{text-align:left;vertical-align:top}
+    </style>
+    <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-0lax">Description</th>
+        <th class="tg-0lax">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-0lax">Display Name</td>
+        <td class="tg-0lax">{DisplayName}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">SourceUPN</td>
+        <td class="tg-0lax">{SourceUserPrincipalName}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">TargetUPN</td>
+        <td class="tg-0lax">{TargetUserPrincipalName}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">O365 License</td>
+        <td class="tg-0lax">{LicenseDetail}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">hasLoggedIn</td>
+        <td class="tg-0lax">{hasPreviousLogon}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">LastLogonTimeStamp</td>
+        <td class="tg-0lax">{LastLogonTimeStamp}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">RequiresDUADeployment</td>
+        <td class="tg-0lax">{RequieresDuaDeployment}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">UserStatus (Enable/Disabled)</td>
+        <td class="tg-0lax">{Status}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">SecurityProfile</td>
+        <td class="tg-0lax">{SecurityProfileGroup}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">LicenseSecurityGroup</td>
+        <td class="tg-0lax">{LicenseGroup}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">OneDriveStats</td>
+        <td class="tg-0lax">{OneDriveStatus}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">isRegionalConfigurationSet</td>
+        <td class="tg-0lax">{RegionalConfiguration}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">isO365Provisioned</td>
+        <td class="tg-0lax">{isO365Provisioned}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">isPasswordSet</td>
+        <td class="tg-0lax">{isPasswordReset}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">PasswordSetTimeStamp</td>
+        <td class="tg-0lax">{LastPasswordResetTimeStamp}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">Wave</td>
+        <td class="tg-0lax">{WaveName}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">ODMCollection</td>
+        <td class="tg-0lax">{OdmCollectionName}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">ODMMailInitialTask</td>
+        <td class="tg-0lax">{OdmMailInitialSyncTask}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">ODMOneDriveInitialTask</td>
+        <td class="tg-0lax">{OdmODInitialSyncTask}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">PremigrationTaskStatus</td>
+        <td class="tg-0lax">{PremigrationTaskStatus}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">DataMigrationReview</td>
+        <td class="tg-0lax">{DataMigrationReview}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">CommunicationPhase</td>
+        <td class="tg-0lax">{CommunicationPhase}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">ODMMailboxSwitchTask</td>
+        <td class="tg-0lax">{OdmMailboxSwitchTask}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">ODMApplicationSwitchTask</td>
+        <td class="tg-0lax">{OdmAppSwitchTask}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">ODMMailFinalSyncTask</td>
+        <td class="tg-0lax">{OdmMailFinal}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">ODMOneDriveFinalSyncTask</td>
+        <td class="tg-0lax">{ODMODFinalSyncTask}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">isMailboxAccessDisabled</td>
+        <td class="tg-0lax">{MailboxAccessStatus}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">MailboxAccessDisableTimeStamp</td>
+        <td class="tg-0lax">{MailboxAccesDisableTimestamp}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">isOneDriveReadOnlyEnabled</td>
+        <td class="tg-0lax">{ODReadOnly}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">OneDriveReadOnlyTimeStamp</td>
+        <td class="tg-0lax">{ODReadOnlyTimeStamp}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">MigrationTaskStatus</td>
+        <td class="tg-0lax">{MigratonTaskStatus}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">MailMigationRate</td>
+        <td class="tg-0lax">{MailMigrationRate}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">OneDriveMigrationRate</td>
+        <td class="tg-0lax">{OneDriveMigrationRate}</td>
+      </tr>
+      <tr>
+        <td class="tg-0lax">GlobalMigrationStatus</td>
+        <td class="tg-0lax">{GlobalMigrationStatus}</td>
+      </tr>
+    </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,113 @@
+################################################################################
+                  AAD - comprobar grupos del usuario 
+################################################################################
+
+##### 1
+Comprobar que el usuario esta deshabilitado/habilitado
+$thisUser = Get-AzureADUser -ObjectId "570157@unilabs.com"
+$thisUser.AccountEnabled
+
+Comprobar que el usuario es del pais esperado
+$thisUser.Country
+
+Get-AzureADUserMembership -ObjectId "570157@unilabs.com" | select DisplayName
+
+##### 1
+Comprobar si tiene grupo de perfil de seguridad:
+$thisMemberships = Get-AzureADUserMembership -ObjectId "570157@unilabs.com" | select DisplayName
+$secProfile = $thisMemberships | where {$_.Displayname -like "SU-EAST-SK-SK-SecurityProfile*"}
+
+Comprobar que solo tenga un único perfil de seguridad
+$secProfile.Count
+
+##### 1
+$licenseGroup = $thisMemberships | where {$_.Displayname -like "SU-EAST-SK-SK-Licenses-MS-O365E3"}
+
+Comprobar que al menos tenga grupo regional de licencias
+$licenseGroup.Count
+
+############################################################################
+                        COMUNES
+############################################################################
+
+Buscar un usuario por nombre de email origen:
+$searchString = @{'sourceEmail' = 'mcano_src@365enespanol.com'}
+$thisUser = Get-OdmObject -WildcardFilter $searchString
+
+Obtener una coleción creada
+$collectionName = @{'name' = 'Collection1_contoso'}
+$thisCollection = Get-OdmCollection -WildcardFilter $collectionName
+
+Obtener todos los usuarios de una colleción, y meterlos en un array para añadirlos a una tarea ya creada
+ $allUsers=@()
+ $thisUsersCol = $thisCollection | Get-OdmObject 
+ $thisUsersCol | Foreach {
+  $filter= @{'sourceEmail' = $_.SourceEmail}
+  $thisUserToTask = Get-OdmObject -WildcardFilter $filter
+  $allUsers+=$thisUserToTask
+ }
+  Add-OdmObject -To $thisTask -Objects $allUsers
+
+Obtener una tarea
+$thisTaskName = @{'name' = '20230118_Final_Mail_Forwarding'}
+$thisTask = Get-OdmTask -WildcardFilter $thisTaskName
+
+#Obtener todas las tareas que tiene un usuario
+$searchString = @{'sourceEmail' = 'mcano_src@365enespanol.com'}
+$thisUser = Get-OdmObject -WildcardFilter $searchString
+($thisUser | Get-OdmEvent | group TaskName).Name
+
+############################################################################
+                        MAIL MIGATION
+############################################################################
+
+Crear una tarea de migración de correo:
+New-OdmMailMigrationTask -Name "20230113_T10_Mail_Migration" `
+ -MigrateMail -MigrateRecoverableItems -MailForwarding 'Ignore' `
+ -O365LicenseAssignmentType Keep -O365LicenseToAssign "SkipO365LicenseAssignment" 
+
+Obtener la tarea
+$thisTaskName = @{'name' = '20230114_T10_Mail_Migration'}
+$thisTask = Get-OdmTask -WildcardFilter $thisTaskName
+
+
+ Añadir objetos a la tarea
+ Add-OdmObject -To $thisTask -Objects $thisUser
+
+ Obtener usuarios de una colección
+ $collectionName = @{'name' = 'Collection1_contoso'}
+ $thisCollection = Get-OdmCollection -WildcardFilter $collectionName
+ $thisCollection | Get-OdmObject
+
+  Crear una tarea programada indicando un rango de fechas (Desde X hasta ahora)
+  $thisFrom = (Get-Date -Hour 00 -Minute 01 -Second 00).AddDays(-10)
+  New-OdmMailMigrationTask -Name "20230113_T10_Mail_Migration" `
+ -MigrateMail -MigrateRecoverableItems -MailForwarding 'Ignore' `
+ -O365LicenseAssignmentType Keep -O365LicenseToAssign "none" -MigrateMailFrom $thisFrom
+
+ #Deshabilitar el acceso al buzón (Por protocolos)
+  Deshabilitar acceso OWA
+  Set-CASMailbox -Identity cnaranjo_trg@M365x59909532.onmicrosoft.com -EwsEnabled $false -OWAEnabled $false -OWAforDevicesEnabled $false
+
+  Deshabilitar acceso a cliente Outlook
+  Set-CASMailbox -Identity cnaranjo_trg@M365x59909532.onmicrosoft.com -MAPIEnabled $false -EwsAllowOutlook $false
+  
+  Deshabilitar acceso por disposivitos moviles
+  Set-CASMailbox -Identity cnaranjo_trg@M365x59909532.onmicrosoft.com -ActiveSyncEnabled $false
+
+  Caducar todos los tokens de AAD previos del usuario
+  Revoke-AzureADUserAllRefreshToken -ObjectId cnaranjo_trg@M365x59909532.onmicrosoft.com
+
+
+############################################################################
+                        ONEDRIVE MIGATION
+############################################################################
+
+Crear una tarea de migracion de OneDrive 
+ $thisODMigrationTask = New-OdmOneDriveMigrationTask -Name "20230114_T10_OneDrive_Migration" -MigrationAction Skip -FileVersions LatestAndPrevious `
+  -PermissionBehaviour MigratedContentOnly -Author TargetAccount -FileVersionMaxSize 32 -O365LicenseAssignmentType Keep -O365LicenseToAssign "none"
+
+ Set-OdmOneDriveMigrationTask -Task $thisODMigrationTask -O365LicenseToAssign ""
+
+ Get-OdmTask -Task $thisODMigrationTask 
+
